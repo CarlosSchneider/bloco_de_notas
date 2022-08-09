@@ -1,0 +1,84 @@
+{
+    // "window.zoomLevel": -1,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.quickSuggestionsDelay": 800,
+    "editor.hover.delay": 1000,
+    "editor.suggestFontSize": 12,
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.rulers": [
+        { "column": 80, "color": "#683157" },
+        { "column": 120, "color": "#dbb64e" },
+        { "column": 160, "color": "#fffb00" }
+    ],
+
+    "workbench.sideBar.location": "left",
+    "workbench.sash.size": 4,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#071eee",
+        "activityBar.activeBorder": "#5648db",
+        "activityBar.background": "#1b1849",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#8f8e8ec9",
+        "activityBarBadge.background": "#4947c0",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#1b1849",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#071eee",
+        "titleBar.activeBackground": "#121033",
+        "titleBar.activeForeground": "#eaf587",
+        "titleBar.inactiveBackground": "#70707091",
+        "titleBar.inactiveForeground": "#fbfbfc99",
+        "tab.activeBackground": "#808080",
+        "tab.activeBorder": "#ffffff",
+        "tab.activeForeground": "#f0f0f0",
+        "tab.hoverBackground": "#606060",
+        "terminal.background":"#0c0668",
+        "terminal.foreground":"#fcff5e",
+    },
+
+    // TERMINAL
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontFamily": "Lucida Console",
+
+    "prettier.tabWidth": 4,
+    // DART
+    "dart.openDevTools": "flutter",
+    "dart.debugSdkLibraries": true,
+    "dart.lineLength": 120,
+    "dart.debugExternalPackageLibraries": true,
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        // "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.rulers": [120, 140],
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+        "editor.tabSize": 2,
+        "editor.wordWrapColumn": 120,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.trimAutoWhitespace": true,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[plaintext]": {
+        "editor.wordWrapColumn": 1024,
+        "editor.wordWrap": "off"
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+}
